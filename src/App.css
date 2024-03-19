@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(54, 54, 126);
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.passwordBox
+{
+  width: 350px;
+  height: 380px;
+  background-color: blueviolet;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header
+{
+  display: flex;
+  justify-content: center;
+}
+
+.passwordBoxin
+{
+  display: flex;
+  margin-top: 15px;
+  gap: 2px;
+}
+
+.passwordBoxin input
+{
+  flex-basis: 80%;
+  border: none;
+  border-radius: 70px;
+  padding-left: 20px;
+}
+
+.passwordBoxin button
+{
+  flex-basis: 20%;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 0;
+  background-color: rgb(164, 164, 225);
+  cursor: pointer;
+}
+
+.passlength
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+.passlength input
+{
+  padding: 10px 4px;
+  width: 60px;
+
+}
+
+.Gsvg
+{
+  position: absolute;
+  right: 33rem;
+  top: 10.7rem;
+}
+
+.Gbutton
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.Gbutton button
+{
+  width: 50rem;
+  border: none;
+  border-radius: 25px;
+  height: 2rem;
+  background-color: rgb(164, 164, 225);
+  cursor: pointer;
 }
